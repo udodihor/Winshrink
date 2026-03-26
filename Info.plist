@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key>
+  <string>com.winshrink.app</string>
+  <key>CFBundleName</key>
+  <string>Winshrink</string>
+  <key>CFBundleDisplayName</key>
+  <string>Winshrink</string>
+  <key>CFBundleExecutable</key>
+  <string>Winshrink</string>
+  <key>CFBundleIconFile</key>
+  <string>Winshrink</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.1.0</string>
+  <key>CFBundleVersion</key>
+  <string>2</string>
+  <key>NSPrincipalClass</key>
+  <string>NSApplication</string>
+  <!-- No Dock icon; lives only in the menu bar -->
+  <key>LSUIElement</key>
+  <true/>
+  <!-- Minimum macOS version -->
+  <key>LSMinimumSystemVersion</key>
+  <string>12.0</string>
+  <!-- Accessibility usage description (shown in Privacy prompt) -->
+  <key>NSAccessibilityUsageDescription</key>
+  <string>Winshrink uses Accessibility to move and resize application windows.</string>
+</dict>
+</plist>

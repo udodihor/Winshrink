@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.winshrink.app</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Applications/Winshrink.app/Contents/MacOS/Winshrink</string>
+  </array>
+
+  <!-- Start at login -->
+  <key>RunAtLoad</key>
+  <true/>
+
+  <!-- Restart only on crash (exit code ≠ 0), NOT when user quits cleanly -->
+  <key>KeepAlive</key>
+  <dict>
+    <key>SuccessfulExit</key>
+    <false/>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/winshrink.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/tmp/winshrink.err</string>
+</dict>
+</plist>
